@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+        
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.3/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <link rel='stylesheet' type='text/css' media='screen' href='base.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='Principal.css'>
+</head>
+<body>
+
+
+    <header> 
+        <div id="LogoTitulo" class="row">
+            <a class="col-2" style="height: 2%;" href="principal.html"><img src="img/LogoHeader.jpg" alt="Logo" style="width: 100%;" ></a>
+            <h1 class="col-3" style="height: 2%;margin-top: 2%;">Ferreteria DuocrTiz</h1>
+            <div class="col-4" style="height: 2%;margin-top: 2%;font-size: large;">
+                <p class="text-center"></p>
+                <ul class="nav justify-content-end nav-tabs">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown"href="#" style="color: gray;">Servicios</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="Alineacion.html">Alineacion</a>
+                        <a class="dropdown-item" href="CambioAceite.html">CambioDeAceite</a>
+                        <a class="dropdown-item" href="Pintura.html">Pintura</a>
+                        <a class="dropdown-item" href="../Prueba/htmlServicios/ServicioGrua.html">ServicioGrua</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Registro.html" style="color: gray;">Registro</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Formulario.html" style="color: gray;">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="API.HTML" style="color: gray;">API</a>
+                  </li>
+                </ul>
+                
+            </div>
+            <form action="las acciones que tienen que ir" method="get" class="search-bar col-3"style="height: 2%;margin-top: 3%;">
+                <input type="text" placeholder="Busqueda" name="txt">
+                <button type="submit">Buscar</button>
+            </form>
+
+        </div>
+    </header>
+
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr;">
+        <section style= "margin-top: 5%; text-align: center;" class="container-fluid col-10">
+            <!-- Carousel -->
+            <div id="Servicio" class="carousel slide" data-bs-ride="carousel" >
+    
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#Servicio" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#Servicio" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#Servicio" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#Servicio" data-bs-slide-to="3"></button>
+                </div>
+                <h1>Nuestros Servicios Especializados</h1>
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="Alineacion.html"><img src="img/Servicios/alineacionBalanceo.jpeg" alt="alineacionBalanceo" class="d-block" style="width:100%;"></a>
+                        <div class="carousel-caption">
+                        <h3 style="color: black;">Alineacion y Balanceo de neumaticos</h3>
+                        <p style="color: black;">Expertos Certificados</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="../Prueba/htmlServicios/CambioDeAceite.html"><img src="img/Servicios/cambioAceite.webp" alt="cambioAceite" class="d-block" style="width:100%"></a>
+                        <div class="carousel-caption">
+                        <h3>Cambio Aceite</h3>
+                        <p>!!Aceites Premiun e Internacionales en Promocion¡¡</p>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <a href="ServicioGrua.html"><img src="img/Servicios/grua.webp" alt="Grua" class="d-block" style="width:100%"></a>
+                        <div class="carousel-caption">
+                        <h3>Servicio de Grua</h3>
+                        <p>Servicio 24/7 (Solo disponible Region Metrolopolitana)</p>
+                        </div>  
+                    </div>
+                    <div class="carousel-item">
+                        <a href="Pintura.html"><img src="img/Servicios/pintura.jpg" alt="Pintura" class="d-block" style="width:100%"></a>
+                        <div class="carousel-caption">
+                        <h3>Servicio de Pintura</h3>
+                        <p>Oferta Abril Disponibles!</p>
+                        </div>  
+                    </div>  
+                </div>
+                
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#Servicio" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Servicio" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+        <section style= "margin-top: 5%; text-align: center;" class="container-fluid col-10">
+            <!-- Carousel -->
+            <div id="Trabajos" class="carousel slide" data-bs-ride="carouse1" > 
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#Trabajos" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#Trabajos" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#Trabajos" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#Trabajos" data-bs-slide-to="3"></button>
+                </div>
+                <h1>Nuestros Ultimos Trabajos</h1>
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="Trabajo01CajaCambio.html"><img src="img/Impala/Foto01CajaCambio.jpg" alt="Impala" class="d-block" style="width:100%;"></a>
+                        <div class="carousel-caption">
+                        <h3>24/03/2023</h3>
+                        <p>Problemas en la caja de cambio</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/NissanSkyline/Trabajo2NissanSkyline.jpg" alt="NissanSkyline" class="d-block" style="width:100%">
+                        <div class="carousel-caption">
+                        <h3>10/01/2023</h3>
+                        <p>Problemas en la caja de cambio</p>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Toyota/Trabajo03ToyotaSupra.jpg" alt="Toyota" class="d-block" style="width:100%">
+                        <div class="carousel-caption">
+                        <h3>28/12/2022</h3>
+                        <p>Problemas de Suspension</p>
+                        </div>  
+                    </div>
+                </div>
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#Trabajos" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Trabajos" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+    </div>  
+    <footer></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

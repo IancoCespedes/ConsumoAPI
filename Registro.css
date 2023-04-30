@@ -1,0 +1,19 @@
+form{
+    text-align: center;
+    margin-top: 5%;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+a{
+    color: white;
+}
+.volver{
+    background-color: gray;
+    
+    padding: 15px 25px;
+    
+    
+}
